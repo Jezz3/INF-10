@@ -1,3 +1,2 @@
 # INF-10
-Domänenwände in reihenweisen Antiferromagneten
 Dies ist ein Python Script um exportierte Spindaten die mithilfe von https://github.com/JHagemeister/MonteCrystal erstellt wurden zu plotten und an einen Tangenshyperbolicus zu fitten. Dies bietet sich bei Domänewänden in Antiferromagneten an da der Verlauf der z-Komponente des Spins gut mit einem tanh gefittet werden kann. Anschließen stellt das Script die Daten und die gefittet Funktion in einem Plot da und gibt die Breite der Domänewand an. Diese ist definiert als 2 * b wobei b der Nenner des Bruches im tanh ist. Also z.B. tanh((x-x_0)/(b/2))
